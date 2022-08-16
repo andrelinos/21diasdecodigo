@@ -1,3 +1,3 @@
-# Primeiro dia: Hello World usando SVG animado
+# 21 Dias de Código
 
-<img src="./public/svg-animado.png" alt="HelloWord" />
+- **Primeiro dia:** [Hello World usando SVG animado](https://#)
