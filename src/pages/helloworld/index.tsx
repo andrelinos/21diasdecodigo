@@ -2,7 +2,8 @@ import './styles.css';
 
 export function HelloWorld() {
     return (
-        <div className="container">
+        <div className="container-hello-world">
+            <h1 className="day-title">Primeiro dia</h1>
             <div className="content">
                 <svg
                     fill="none"

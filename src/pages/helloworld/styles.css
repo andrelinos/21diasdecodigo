@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 
-* {
-    font-family: 'Silkscreen', cursive;
-}
-html,
-body {
-    width: 100vw;
-    height: 100vh;
-}
-
 @keyframes rotate {
     0% {
         transform: rotate(3deg);
@@ -52,7 +43,8 @@ body {
     box-sizing: border-box;
 }
 
-.container {
+.container-hello-world {
+    font-family: 'Silkscreen', cursive;
     min-width: 100vw;
     min-height: 100vh;
     display: flex;
@@ -64,7 +56,17 @@ body {
     animation: gradientBackground 20s ease-in-out infinite;
 }
 
-.content {
+.container-hello-world .day-title {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+    position: absolute;
+    top: 10%;
+    z-index: 99;
+}
+
+.container-hello-world .content {
     position: relative;
     width: 100%;
     height: 30rem;
@@ -83,7 +85,7 @@ body {
     text-align: center;
 }
 
-.svg-container {
+.container-hello-world .content .svg-container {
     width: 100%;
     height: 100%;
     display: flex;
@@ -92,9 +94,9 @@ body {
     align-items: center;
 }
 
-.hashtag21 {
+.container-hello-world .content .hashtag21 {
     position: absolute;
-    bottom: -1rem;
+    bottom: 0;
     width: 100%;
     background: rgba(0, 0, 0, 0.1);
     padding: 1rem;
@@ -102,7 +104,7 @@ body {
     z-index: 99;
 }
 
-.title {
+.container-hello-world .content .title {
     font-size: 10rem;
     line-height: 1;
     letter-spacing: 0.5rem;
