@@ -1,3 +1,5 @@
 # 21 Dias de Código
 
-- **Primeiro dia:** [Hello World usando SVG animado](https://#)
+<img src="./public/images/lista-projetos.png" alt="21 Dias de Código" />
+
+## [Acesse o projeto online](https://21diasdecodigo.vercel.app/)
