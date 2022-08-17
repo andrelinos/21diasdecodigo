@@ -5,7 +5,9 @@ a {
 .container-home {
     min-height: 100vh;
     flex: 1;
-    background: linear-gradient(115deg, #033d3e, #039647);
+    background: linear-gradient(45deg, #084801, #171923, #2d3748);
+    background-size: 600% 400%;
+    animation: gradientBackground 20s ease-in-out infinite;
 }
 
 .container-home .header-content {
