@@ -33,7 +33,7 @@ a {
     justify-content: center;
 }
 
-.container-home .header-content .buttons button {
+.container-home .header-content .buttons a {
     font-size: 1.5rem;
     padding: 1rem;
     display: flex;
@@ -46,7 +46,7 @@ a {
     transition: all 0.2s ease-in-out;
 }
 
-.container-home .header-content .buttons button:hover {
+.container-home .header-content .buttons a:hover {
     background-color: #7ab317;
     color: #fff;
 }
@@ -58,7 +58,7 @@ a {
     max-width: 1200px;
     margin: 0 auto;
     border-radius: 0.5rem;
-    padding: 1rem;
+    padding: 1rem 1rem 16rem;
     color: #fff;
     flex-direction: column;
 }
