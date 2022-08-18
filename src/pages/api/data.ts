@@ -22,7 +22,7 @@ export const data = [
     },
     {
         title: 'Botões animados',
-        image: '/images/lista-projetos.png',
+        image: '/images/animatedsbuttons.png',
         url: '/animatedbuttons',
         day: '3',
         techs: [
@@ -30,8 +30,8 @@ export const data = [
             'Vite JS',
             'Typescript',
             'CSS',
-            'Phosphor Icons',
-            'React Router DOM',
+            'SASS',
+            'Tailwind CSS',
         ],
     },
 ];
