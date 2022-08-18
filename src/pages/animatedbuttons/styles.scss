@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+
+$color-button-primary: #b15947;
+
+$color-button-red: #e74c3c;
+$color-button-green: #2ecc71;
+$color-button-blue: #3498db;
+
+$color-text: #ecf0f1;
+
+$font-family: 'Noto Sans', sans-serif;
+$font-size: 100%;
+
+$animation: 0.5s all ease;
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: $font-size;
+    font-family: $font-family;
+}
+
+button {
+    color: #fff;
+    text-decoration: none;
+    transition: $animation;
+}
+
+.wrapper-top {
+    h1 {
+        font-size: $font-size + 180%;
+        text-align: center;
+        text-transform: uppercase;
+        color: $color-text;
+    }
+    p {
+        font-size: $font-size + 50%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}

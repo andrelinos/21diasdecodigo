@@ -144,25 +144,19 @@ a {
 }
 
 .container-home .main-content .card-content .description .list-techs {
-    height: 5rem;
-    display: flex;
-    align-items: start;
-    gap: 0.5rem;
-    flex-wrap: wrap;
+    @apply flex h-[5rem] gap-2 items-center flex-wrap;
 }
 
 .container-home .main-content .card-content .description .list-techs li {
-    display: flex;
     align-items: center;
     gap: 0.25rem;
     color: #05ab0d;
+
+    @apply flex;
 }
 
 .container-home .main-content .card-content .description .button-container {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    margin-top: 2rem;
+    @apply flex justify-end items-center mt-8;
 }
 
 .container-home .main-content .card-content .description .button-container a {

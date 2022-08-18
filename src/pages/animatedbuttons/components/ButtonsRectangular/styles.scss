@@ -1,0 +1,110 @@
+$color-button-primary: #b15947;
+
+$color-button-red: #e74c3c;
+$color-button-green: #09a84b;
+$color-button-blue: #3498db;
+
+$color-text: #ecf0f1;
+
+$font-family: 'Noto Sans', sans-serif;
+$font-size: 100%;
+
+$animation: 0.5s all ease;
+
+.btn-red-tr,
+.btn-green-tr,
+.btn-blue-tr {
+    min-width: 130px;
+    position: relative;
+    display: inline-block;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    padding: 15px;
+    margin: 30px 25px;
+
+    font-size: $font-size + 40%;
+    font-weight: 600;
+
+    color: #f5f5f5;
+    &:active {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+
+.btn-red-tr {
+    background-color: $color-button-red;
+}
+.btn-green-tr {
+    background-color: $color-button-green;
+}
+.btn-blue-tr {
+    background-color: $color-button-blue;
+}
+
+.btn-red-tr::before,
+.btn-green-tr::before,
+.btn-blue-tr::before {
+    position: absolute;
+    content: '';
+
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+    border-radius: 8px;
+}
+
+.btn-red-tr:before {
+    border-top: 5px solid lighten($color-button-red, 5%);
+    border-left: 5px solid lighten($color-button-red, 5%);
+    border-right: 5px solid darken($color-button-red, 5%);
+    border-bottom: 5px solid darken($color-button-red, 5%);
+}
+
+.btn-green-tr:before {
+    border-top: 5px solid lighten($color-button-green, 5%);
+    border-left: 5px solid lighten($color-button-green, 5%);
+    border-right: 5px solid darken($color-button-green, 5%);
+    border-bottom: 5px solid darken($color-button-green, 5%);
+}
+
+.btn-blue-tr:before {
+    border-top: 5px solid lighten($color-button-blue, 5%);
+    border-left: 5px solid lighten($color-button-blue, 5%);
+    border-right: 5px solid darken($color-button-blue, 5%);
+    border-bottom: 5px solid darken($color-button-blue, 5%);
+}
+
+.btn-red-tr:hover {
+    color: #fff;
+    box-shadow: 7px 7px darken($color-button-red, 20%),
+        -7px -7px lighten($color-button-red, 20%);
+    cursor: pointer;
+    &::before {
+        border: 0px;
+    }
+}
+
+.btn-green-tr:hover {
+    color: #fff;
+    box-shadow: 7px 7px darken($color-button-green, 20%),
+        -7px -7px lighten($color-button-green, 20%);
+    cursor: pointer;
+    &::before {
+        border: 0px;
+    }
+}
+
+.btn-blue-tr:hover {
+    color: #fff;
+    box-shadow: 7px 7px darken($color-button-blue, 20%),
+        -7px -7px lighten($color-button-blue, 20%);
+    cursor: pointer;
+    &::before {
+        border: 0px;
+    }
+}

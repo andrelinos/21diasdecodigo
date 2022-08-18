@@ -1,0 +1,133 @@
+$color-button-primary: #b15947;
+
+$color-button-red: #e74c3c;
+$color-button-red-dark: #85160a;
+$color-button-green: #2ecc71;
+$color-button-green-dark: #035525;
+$color-button-blue: #3498db;
+$color-button-blue-dark: #012035;
+
+$color-text: #ecf0f1;
+
+$font-family: 'Noto Sans', sans-serif;
+$font-size: 100%;
+
+$animation: 0.5s all ease;
+
+.btn-secondary-red {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    position: relative;
+    color: #f9f9f9;
+    &:after {
+        transition: $animation;
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        border-radius: 3px;
+        border: 3px solid;
+    }
+    &:before {
+        content: '';
+        position: absolute;
+        border-radius: 3px;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        z-index: -1;
+    }
+    &:hover {
+        &:after {
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+    }
+    z-index: 10;
+}
+
+.btn-red {
+    &:before {
+        background: rgba(245, 139, 139, 0.2);
+    }
+    &::after {
+        border-color: $color-button-red;
+    }
+    &:active {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        color: $color-text;
+        &:before {
+            background-color: $color-button-red;
+        }
+        &:after {
+            border-color: $color-button-red-dark;
+        }
+    }
+    &:hover {
+        color: $color-button-red;
+        &:before {
+            background-color: transparent;
+        }
+    }
+}
+.btn-green {
+    &:before {
+        background: rgba(192, 249, 180, 0.2);
+    }
+    &::after {
+        border-color: $color-button-green;
+    }
+    &:active {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        color: $color-text;
+        &:before {
+            background-color: $color-button-green;
+        }
+        &:after {
+            border-color: $color-button-green-dark;
+        }
+    }
+    &:hover {
+        color: $color-button-green;
+        &:before {
+            background-color: transparent;
+        }
+    }
+}
+.btn-blue {
+    &:before {
+        background: rgba(94, 186, 239, 0.2);
+    }
+    &::after {
+        border-color: $color-button-blue;
+    }
+    &:active {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        color: $color-text;
+        &:before {
+            background-color: $color-button-blue;
+        }
+        &:after {
+            border-color: $color-button-blue-dark;
+        }
+    }
+    &:hover {
+        color: $color-button-blue;
+        &:before {
+            background-color: transparent;
+        }
+    }
+}

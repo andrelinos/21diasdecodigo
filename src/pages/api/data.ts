@@ -20,4 +20,18 @@ export const data = [
             'React Router DOM',
         ],
     },
+    {
+        title: 'Botões animados',
+        image: '/images/lista-projetos.png',
+        url: '/animatedbuttons',
+        day: '3',
+        techs: [
+            'React JS',
+            'Vite JS',
+            'Typescript',
+            'CSS',
+            'Phosphor Icons',
+            'React Router DOM',
+        ],
+    },
 ];
