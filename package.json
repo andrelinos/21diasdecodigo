@@ -9,10 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "apexcharts": "^3.35.4",
     "autoprefixer": "^10.4.8",
     "phosphor-react": "^1.4.1",
     "postcss": "^8.4.16",
     "react": "^18.2.0",
+    "react-apexcharts": "^1.4.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
     "sass": "^1.54.4",

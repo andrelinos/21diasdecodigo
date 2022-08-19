@@ -34,4 +34,17 @@ export const data = [
             'Tailwind CSS',
         ],
     },
+    {
+        title: 'Criando Gráficos no ReactJS',
+        image: '/images/charts.png',
+        url: '/charts',
+        day: '4',
+        techs: [
+            'React JS',
+            'Vite JS',
+            'Typescript',
+            'ApexCharts',
+            'Tailwind CSS',
+        ],
+    },
 ];
