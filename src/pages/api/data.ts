@@ -65,6 +65,6 @@ export const data = [
         image: '/images/component-table.png',
         url: '/table',
         day: '6',
-        techs: ['React JS', 'Vite JS', 'Typescript', 'Tailwind CSS'],
+        techs: ['React JS', 'Vite JS', 'Typescript', 'Tailwind CSS', 'HTML'],
     },
 ];
