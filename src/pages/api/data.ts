@@ -47,4 +47,24 @@ export const data = [
             'Tailwind CSS',
         ],
     },
+    {
+        title: 'Fazendo fetch no ReactJS',
+        image: '/images/fetchdata.png',
+        url: '/table',
+        day: '5',
+        techs: [
+            'React JS',
+            'Vite JS',
+            'Typescript',
+            'Javascript',
+            'Brazil API',
+        ],
+    },
+    {
+        title: 'Componentizando tabela',
+        image: '/images/component-table.png',
+        url: '/table',
+        day: '6',
+        techs: ['React JS', 'Vite JS', 'Typescript', 'Tailwind CSS'],
+    },
 ];

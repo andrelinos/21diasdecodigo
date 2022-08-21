@@ -4,6 +4,7 @@ import { Home } from './pages';
 import { AnimatedButtons } from './pages/animatedbuttons';
 import BasicCharts from './pages/charts';
 import { HelloWorld } from './pages/helloworld';
+import TableHome from './pages/table';
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             <Route path="/helloworld" element={<HelloWorld />} />
             <Route path="/animatedbuttons" element={<AnimatedButtons />} />
             <Route path="/charts" element={<BasicCharts />} />
+            <Route path="/table" element={<TableHome />} />
         </Routes>
     );
 }
